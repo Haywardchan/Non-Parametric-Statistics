@@ -11,7 +11,7 @@ $\alpha = 0.05$
 
 $Sorted\space Statistics: 1,2,3,4,4,7,9,10,12,15$
 
-$a)\space \text{Sign Test}$
+$a)$ Sign Test
 
 $S=\sum_{i=1}^{10}I\{X_i>m\}=5$ 
 
@@ -31,9 +31,9 @@ $=0.623046875$
 
 $\gt 0.05$
 
-$\text{We do not have enough evidence to reject the null hypothesis}$
+We do not have enough evidence to reject the null hypothesis
 
-$b)\space \text{Sign Test with Normal Approximation}$
+$b)$ Sign Test with Normal Approximation
 
 $S=\sum_{i=1}^{10}I\{X_i>m\}=5$ 
 
@@ -56,9 +56,9 @@ $\approx 0.1255$
 
 $\gt 0.05$
 
-$\text{We do not have enough evidence to reject the null hypothesis}$
+We do not have enough evidence to reject the null hypothesis
 
-$c)\space \text{Wilxocon Sign Rank Text}$
+$c)$ Wilxocon Sign Rank Text
 
 | $X_i$                      | $X_1$           | $X_2$           | $X_3$           | $X_4$ | $X_5$           | $X_6$ | $X_7$           | $X_8$           | $X_9$ | $X_{10}$ |
 |--------------------------|---------------|---------------|---------------|-----|---------------|-----|---------------|---------------|-----|--------|
@@ -77,13 +77,13 @@ $=1.5+3.5+8+9+6.5+10$
 
 $=38.5$
 
-$\text{By looking up the table: We know that the critical value is 10 when n=10, }\alpha=0.05$
+By looking up the table: We know that the critical value is 10 when n=10, $\alpha$=0.05
 
 $\because 38.5>10$
 
-$\therefore \text{We do not have enough evidence to reject the null hypothesis}$
+$\therefore$ We do not have enough evidence to reject the null hypothesis
 
-$d) \space\text{Wilxocon Sign Rank Test with Normal Approximation}$
+$d)$ Wilxocon Sign Rank Test with Normal Approximation
 
 $W=\sum_{i=1}^{10}R_iI_i$
 
@@ -97,11 +97,11 @@ $\approx 1-\Phi(\frac{38.5-\frac{10(10+1)}{2}-0.5}{\sqrt{\frac{1}{24}(10)(10+1)(
 
 $\approx0.6423\gt0.05$
 
-$\therefore \text{We do not have enough evidence to reject the null hypothesis}$
+$\therefore$ We do not have enough evidence to reject the null hypothesis
 
-$e)\text{ Parametric t-test}$
+$e)$ Parametric t-test
 
-$\text{We Assume the data follows Normal Distribution}$
+We Assume the data follows Normal Distribution
 
 $X_1..X_{10} \sim i.i.d\space N(\mu, \sigma ^ 2)$
 
@@ -121,22 +121,17 @@ $T\sim t(n-1)\sim t(9)$
 
 $\text{P-Value}$
 
-$
-P(T\geq1.1517)$
+$P(T\geq1.1517)$
 
-$
-\approx 0.13956$
+$\approx 0.13956$
 
-$
-\gt0.05$
+$\gt0.05$
 
-$
-\therefore \text{We do not have enough evidence to reject the null hypothesis}
-$
+$\therefore$ We do not have enough evidence to reject the null hypothesis
 
-$\text{f) Yes, five approaches reach the same conclusion of not rejecting the null hypothesis of the median being 5 among the population}$
+$f)$ Yes, five approaches reach the same conclusion of not rejecting the null hypothesis of the median being 5 among the population
 
-$\text{Q2) Exact Distribution of Wilcoxon sign Rnak Test}$
+$Q2)$ Exact Distribution of Wilcoxon Sign Rank Test
 
 | n=5            |   |   |   |   |   | W  | Prob |
 |----------------|---|---|---|---|---|----|------|
@@ -174,14 +169,11 @@ $\text{Q2) Exact Distribution of Wilcoxon sign Rnak Test}$
 |                | + | - | - | - | - | 1  | 1/32 |
 |                | - | - | - | - | - | 0  | 1/32 |
 
-$\text{From the Derived Exact Distribution:}$
+From the Derived Exact Distribution:
 
-$
-P(W\leq3)=5/32=0.15625$
+$P(W\leq3)=5/32=0.15625$
 
-$
-P(W\geq8)=16/32=0.5
-$
+$P(W\geq8)=16/32=0.5$
 
 $Q3)$
 | Statistics ||||||
@@ -190,47 +182,32 @@ $Q3)$
 | Y     | 18.3 | 20.8 | 20.9 | 21.2 | 22.7 |
 | Z=X-Y | -1.1 | 0.8  | -1.4 | -2.2 | -0.7 |
 
-$\text{a) By Order Statistics,}$
+$a)$ By Order Statistics,
 
-$
-\hat{m_0}=z_{(3)}=-1.1$
+$\hat{m_0}=z_{(3)}=-1.1$
 
-$
-P(S<K_{\alpha})=\frac{0.05}{2}-0.025$
+$P(S<K_{\alpha})=\frac{0.05}{2}-0.025$
 
-$
-\sum_{i=0}^{k_{\alpha}-1}\binom{5}{i}=0.025$
+$\sum_{i=0}^{k_{\alpha}-1}\binom{5}{i}=0.025$
 
-$
-k_{\alpha}=1 \text{ is closest to 0.025}$
+$k_{\alpha}=1 \text{ is closest to 0.025}$
 
-$
-\therefore \text{CI of median=}[z_{(1)}, z_{(5-1+1)}]=[-2.2, 0.8]
-$
+$\therefore \text{CI of median=}[z_{(1)}, z_{(5-1+1)}]=[-2.2, 0.8]$
 
-$b) \text{ Hodgers-Lehmann estimator}$
+$b)$ Hodgers-Lehmann estimator
 
-$
-\hat{}m_{HL}=\text{MD of all Walsh Average}$
+$\hat{m_{HL}}=$ MD of all Walsh Average
 
-$
-\text{Walsh Average for \{-2.2, -1.4, -1.1, -0.7, 0.8\}:}$
+Walsh Average for \{-2.2, -1.4, -1.1, -0.7, 0.8\}:
 
-$
-\{-2.2, -1.8, -1.65, -1.45, -1.4, -1.25, -1.1, -1.05, -0.9, -0.7, -0.7, -0.3, -0.15, 0.05, 0.8\}$
+$\{-2.2, -1.8, -1.65, -1.45, -1.4, -1.25, -1.1, -1.05, -0.9, -0.7, -0.7, -0.3, -0.15, 0.05, 0.8\}$
 
-$
-\hat{m_{HL}}=X_{(\frac{15+1}{2})}=X_{(8)}=-1.05$
+$\hat{m_{HL}}=X_{(\frac{15+1}{2})}=X_{(8)}=-1.05$
 
-$
-\text{By Tukey's method of CI}$
+By Tukey's method of CI
 
-$
-P(W<K_{\alpha})=0.05/2$
+$P(W<K_{\alpha})=0.05/2$
 
-$
-\text{when } k_{\alpha} \text{is 1, it is closest to 0.025,}$
+when $k_{\alpha}$ is 1, it is closest to 0.025,
 
-$
-\therefore \text{the median 95\% CI is [-2.2, 0.8]}
-$
+$\therefore$ the median 95\% CI is [-2.2, 0.8]
