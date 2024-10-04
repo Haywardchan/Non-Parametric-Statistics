@@ -71,15 +71,19 @@ $c)$ Wilxocon Sign Rank Text
 
 
 
-$W=\sum_{i=1}^{10}R_iI_i$
+$W+=\sum_{i=1}^{10}R_iI_i$
 
 $=1.5+3.5+8+9+6.5+10$
 
 $=38.5$
 
+$W-=3.5+1.5+6.5+5$
+
+$=16.5$
+
 By looking up the table: We know that the critical value is 10 when n=10, $\alpha$=0.05
 
-$\because 38.5>10$
+$\because 16.5>10$
 
 $\therefore$ We do not have enough evidence to reject the null hypothesis
 
@@ -87,7 +91,9 @@ $d)$ Wilxocon Sign Rank Test with Normal Approximation
 
 $W=\sum_{i=1}^{10}R_iI_i$
 
-$=1.5+3.5+8+9+6.5+10$$=38.5$
+$=1.5+3.5+8+9+6.5+10$
+
+$=38.5$
 
 $\text{P-Value}$
 
